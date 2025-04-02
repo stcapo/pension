@@ -1,0 +1,5296 @@
+[
+  {
+    "elderlyId": 1,
+    "elderlyName": "郭秀兰",
+    "dietType": "无乳糖饮食",
+    "calorieIntake": "2120千卡",
+    "specialRequirements": "无乳糖饮食、普通饮食",
+    "lastUpdated": "2023-03-21",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 2,
+    "elderlyName": "张秀兰",
+    "dietType": "流质饮食",
+    "calorieIntake": "1730千卡",
+    "specialRequirements": "流质饮食",
+    "lastUpdated": "2024-08-18",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "2杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 3,
+    "elderlyName": "赵芳",
+    "dietType": "流质饮食",
+    "calorieIntake": "2000千卡",
+    "specialRequirements": "流质饮食",
+    "lastUpdated": "2025-03-25",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "梨",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 4,
+    "elderlyName": "周桂英",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "2122千卡",
+    "specialRequirements": "高蛋白饮食、低盐饮食",
+    "lastUpdated": "2025-02-07",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "蛋糕",
+            "portion": "1份"
+          },
+          {
+            "category": "水果",
+            "name": "香蕉",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 5,
+    "elderlyName": "陈明",
+    "dietType": "低盐饮食",
+    "calorieIntake": "1703千卡",
+    "specialRequirements": "低盐饮食",
+    "lastUpdated": "2024-12-07",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "蛋糕",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "葡萄",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 6,
+    "elderlyName": "李秀兰",
+    "dietType": "流质饮食",
+    "calorieIntake": "1977千卡",
+    "specialRequirements": "流质饮食、软食",
+    "lastUpdated": "2025-01-11",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "白菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "1份"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 7,
+    "elderlyName": "郭娟",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "2186千卡",
+    "specialRequirements": "高蛋白饮食",
+    "lastUpdated": "2023-06-16",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 8,
+    "elderlyName": "刘桂英",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "2055千卡",
+    "specialRequirements": "高蛋白饮食",
+    "lastUpdated": "2024-09-23",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 9,
+    "elderlyName": "马娟",
+    "dietType": "软食",
+    "calorieIntake": "1708千卡",
+    "specialRequirements": "软食",
+    "lastUpdated": "2023-11-16",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 10,
+    "elderlyName": "张娜",
+    "dietType": "流质饮食",
+    "calorieIntake": "1919千卡",
+    "specialRequirements": "流质饮食",
+    "lastUpdated": "2024-07-20",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 11,
+    "elderlyName": "马超",
+    "dietType": "低盐饮食",
+    "calorieIntake": "2143千卡",
+    "specialRequirements": "低盐饮食、流质饮食",
+    "lastUpdated": "2024-05-30",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 12,
+    "elderlyName": "朱勇",
+    "dietType": "流质饮食",
+    "calorieIntake": "1786千卡",
+    "specialRequirements": "流质饮食、低盐饮食",
+    "lastUpdated": "2024-07-21",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "白菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "苹果",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 13,
+    "elderlyName": "陈秀兰",
+    "dietType": "无乳糖饮食",
+    "calorieIntake": "2172千卡",
+    "specialRequirements": "无乳糖饮食、低盐饮食",
+    "lastUpdated": "2025-03-28",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "1份"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 14,
+    "elderlyName": "郭平",
+    "dietType": "流质饮食",
+    "calorieIntake": "1942千卡",
+    "specialRequirements": "流质饮食、低盐饮食",
+    "lastUpdated": "2023-08-18",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "香蕉",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 15,
+    "elderlyName": "孙勇",
+    "dietType": "无乳糖饮食",
+    "calorieIntake": "1872千卡",
+    "specialRequirements": "无乳糖饮食",
+    "lastUpdated": "2024-09-30",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "2份"
+          },
+          {
+            "category": "水果",
+            "name": "香蕉",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 16,
+    "elderlyName": "李洋",
+    "dietType": "低盐饮食",
+    "calorieIntake": "2030千卡",
+    "specialRequirements": "低盐饮食",
+    "lastUpdated": "2023-04-26",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "白菜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 17,
+    "elderlyName": "李丽",
+    "dietType": "糖尿病饮食",
+    "calorieIntake": "2133千卡",
+    "specialRequirements": "糖尿病饮食、普通饮食",
+    "lastUpdated": "2023-05-12",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 18,
+    "elderlyName": "郭强",
+    "dietType": "低盐饮食",
+    "calorieIntake": "1780千卡",
+    "specialRequirements": "低盐饮食、普通饮食",
+    "lastUpdated": "2025-02-07",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 19,
+    "elderlyName": "杨洋",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "1683千卡",
+    "specialRequirements": "高蛋白饮食、普通饮食",
+    "lastUpdated": "2023-12-01",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 20,
+    "elderlyName": "黄芳",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "1666千卡",
+    "specialRequirements": "高蛋白饮食",
+    "lastUpdated": "2024-09-17",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "白菜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 21,
+    "elderlyName": "张强",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "1553千卡",
+    "specialRequirements": "高蛋白饮食、低盐饮食",
+    "lastUpdated": "2024-08-27",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "白菜",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 22,
+    "elderlyName": "林桂英",
+    "dietType": "糖尿病饮食",
+    "calorieIntake": "2095千卡",
+    "specialRequirements": "糖尿病饮食",
+    "lastUpdated": "2023-08-08",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 23,
+    "elderlyName": "林丽",
+    "dietType": "低盐饮食",
+    "calorieIntake": "1846千卡",
+    "specialRequirements": "低盐饮食",
+    "lastUpdated": "2025-04-01",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 24,
+    "elderlyName": "刘丽",
+    "dietType": "低盐饮食",
+    "calorieIntake": "1984千卡",
+    "specialRequirements": "低盐饮食、普通饮食",
+    "lastUpdated": "2024-08-14",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "3份"
+          },
+          {
+            "category": "水果",
+            "name": "梨",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 25,
+    "elderlyName": "杨静",
+    "dietType": "流质饮食",
+    "calorieIntake": "1931千卡",
+    "specialRequirements": "流质饮食",
+    "lastUpdated": "2025-01-26",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 26,
+    "elderlyName": "陈秀兰",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "1993千卡",
+    "specialRequirements": "高蛋白饮食",
+    "lastUpdated": "2023-11-09",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "蛋糕",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 27,
+    "elderlyName": "郑秀英",
+    "dietType": "低盐饮食",
+    "calorieIntake": "2183千卡",
+    "specialRequirements": "低盐饮食、流质饮食",
+    "lastUpdated": "2023-06-10",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "葡萄",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 28,
+    "elderlyName": "吴静",
+    "dietType": "糖尿病饮食",
+    "calorieIntake": "1622千卡",
+    "specialRequirements": "糖尿病饮食、低盐饮食",
+    "lastUpdated": "2024-06-07",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "2份"
+          },
+          {
+            "category": "水果",
+            "name": "苹果",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 29,
+    "elderlyName": "孙芳",
+    "dietType": "流质饮食",
+    "calorieIntake": "1828千卡",
+    "specialRequirements": "流质饮食",
+    "lastUpdated": "2024-12-01",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          },
+          {
+            "category": "水果",
+            "name": "梨",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 30,
+    "elderlyName": "李刚",
+    "dietType": "无乳糖饮食",
+    "calorieIntake": "1557千卡",
+    "specialRequirements": "无乳糖饮食",
+    "lastUpdated": "2024-05-29",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          },
+          {
+            "category": "水果",
+            "name": "苹果",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 31,
+    "elderlyName": "郭娜",
+    "dietType": "无乳糖饮食",
+    "calorieIntake": "1773千卡",
+    "specialRequirements": "无乳糖饮食、流质饮食",
+    "lastUpdated": "2024-02-08",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 32,
+    "elderlyName": "黄强",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "1518千卡",
+    "specialRequirements": "高蛋白饮食、流质饮食",
+    "lastUpdated": "2024-01-09",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 33,
+    "elderlyName": "马秀兰",
+    "dietType": "低盐饮食",
+    "calorieIntake": "1878千卡",
+    "specialRequirements": "低盐饮食",
+    "lastUpdated": "2024-02-18",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "3份"
+          },
+          {
+            "category": "水果",
+            "name": "梨",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 34,
+    "elderlyName": "何平",
+    "dietType": "流质饮食",
+    "calorieIntake": "1735千卡",
+    "specialRequirements": "流质饮食",
+    "lastUpdated": "2024-03-30",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "葡萄",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 35,
+    "elderlyName": "林秀兰",
+    "dietType": "糖尿病饮食",
+    "calorieIntake": "1770千卡",
+    "specialRequirements": "糖尿病饮食",
+    "lastUpdated": "2023-06-07",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": []
+      }
+    ]
+  },
+  {
+    "elderlyId": 36,
+    "elderlyName": "杨静",
+    "dietType": "普通饮食",
+    "calorieIntake": "2066千卡",
+    "specialRequirements": "普通饮食",
+    "lastUpdated": "2024-05-03",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "蛋糕",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 37,
+    "elderlyName": "马平",
+    "dietType": "软食",
+    "calorieIntake": "2102千卡",
+    "specialRequirements": "软食、糖尿病饮食",
+    "lastUpdated": "2023-09-13",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "蛋糕",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 38,
+    "elderlyName": "赵涛",
+    "dietType": "糖尿病饮食",
+    "calorieIntake": "2116千卡",
+    "specialRequirements": "糖尿病饮食",
+    "lastUpdated": "2025-02-01",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "白菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 39,
+    "elderlyName": "杨伟",
+    "dietType": "软食",
+    "calorieIntake": "2103千卡",
+    "specialRequirements": "软食、糖尿病饮食",
+    "lastUpdated": "2024-05-08",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鸡肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 40,
+    "elderlyName": "朱刚",
+    "dietType": "普通饮食",
+    "calorieIntake": "1504千卡",
+    "specialRequirements": "普通饮食",
+    "lastUpdated": "2023-06-21",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "黄瓜",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "西瓜",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 41,
+    "elderlyName": "胡丽",
+    "dietType": "高蛋白饮食",
+    "calorieIntake": "1702千卡",
+    "specialRequirements": "高蛋白饮食",
+    "lastUpdated": "2025-01-19",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "苹果",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 42,
+    "elderlyName": "胡杰",
+    "dietType": "软食",
+    "calorieIntake": "1768千卡",
+    "specialRequirements": "软食、流质饮食",
+    "lastUpdated": "2024-10-29",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "香蕉",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 43,
+    "elderlyName": "刘娟",
+    "dietType": "软食",
+    "calorieIntake": "2084千卡",
+    "specialRequirements": "软食、低盐饮食",
+    "lastUpdated": "2025-01-21",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 44,
+    "elderlyName": "何明",
+    "dietType": "糖尿病饮食",
+    "calorieIntake": "1982千卡",
+    "specialRequirements": "糖尿病饮食",
+    "lastUpdated": "2023-12-21",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "鸡蛋",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "番茄汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "3杯"
+          },
+          {
+            "category": "水果",
+            "name": "香蕉",
+            "portion": "1份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 45,
+    "elderlyName": "孙洋",
+    "dietType": "流质饮食",
+    "calorieIntake": "1518千卡",
+    "specialRequirements": "流质饮食",
+    "lastUpdated": "2023-03-10",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "葡萄",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 46,
+    "elderlyName": "李洋",
+    "dietType": "低盐饮食",
+    "calorieIntake": "2197千卡",
+    "specialRequirements": "低盐饮食",
+    "lastUpdated": "2023-02-16",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "白菜",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "蛋糕",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 47,
+    "elderlyName": "杨秀兰",
+    "dietType": "低盐饮食",
+    "calorieIntake": "1517千卡",
+    "specialRequirements": "低盐饮食、糖尿病饮食",
+    "lastUpdated": "2025-03-11",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "鱼肉",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "青菜",
+            "portion": "2份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "米饭",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "牛奶",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "酸奶",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "茶",
+            "portion": "2杯"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 48,
+    "elderlyName": "林涛",
+    "dietType": "软食",
+    "calorieIntake": "1879千卡",
+    "specialRequirements": "软食、高蛋白饮食",
+    "lastUpdated": "2025-02-28",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "土豆",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面包",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "西红柿",
+            "portion": "1份"
+          },
+          {
+            "category": "汤",
+            "name": "鱼汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "饼干",
+            "portion": "1份"
+          },
+          {
+            "category": "水果",
+            "name": "橙子",
+            "portion": "2份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 49,
+    "elderlyName": "林刚",
+    "dietType": "软食",
+    "calorieIntake": "1961千卡",
+    "specialRequirements": "软食",
+    "lastUpdated": "2024-05-30",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "瘦猪肉",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "2杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "馒头",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "1份"
+          },
+          {
+            "category": "饮品",
+            "name": "豆浆",
+            "portion": "1杯"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "点心",
+            "name": "水果沙拉",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "1杯"
+          },
+          {
+            "category": "水果",
+            "name": "梨",
+            "portion": "3份"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elderlyId": 50,
+    "elderlyName": "孙强",
+    "dietType": "软食",
+    "calorieIntake": "1890千卡",
+    "specialRequirements": "软食、低盐饮食",
+    "lastUpdated": "2023-09-27",
+    "dailyMeals": [
+      {
+        "type": "早餐",
+        "time": "7:30",
+        "items": [
+          {
+            "category": "主食",
+            "name": "面条",
+            "portion": "1份"
+          },
+          {
+            "category": "肉类",
+            "name": "牛肉",
+            "portion": "2份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "茄子",
+            "portion": "2份"
+          },
+          {
+            "category": "汤",
+            "name": "紫菜汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "午餐",
+        "time": "12:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "粥",
+            "portion": "2份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "1份"
+          },
+          {
+            "category": "蔬菜",
+            "name": "胡萝卜",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "鸡汤",
+            "portion": "2份"
+          },
+          {
+            "category": "饮品",
+            "name": "温水",
+            "portion": "3杯"
+          }
+        ]
+      },
+      {
+        "type": "晚餐",
+        "time": "18:00",
+        "items": [
+          {
+            "category": "主食",
+            "name": "花卷",
+            "portion": "3份"
+          },
+          {
+            "category": "肉类",
+            "name": "豆腐",
+            "portion": "3份"
+          },
+          {
+            "category": "汤",
+            "name": "蔬菜汤",
+            "portion": "3份"
+          }
+        ]
+      },
+      {
+        "type": "加餐",
+        "time": "15:00",
+        "items": [
+          {
+            "category": "饮品",
+            "name": "果汁",
+            "portion": "3杯"
+          }
+        ]
+      }
+    ]
+  }
+]
