@@ -1,16 +1,13 @@
 {
-  "/page": "app/page.js",
-  "/login/page": "app/login/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/elderly-profiles/page": "app/elderly-profiles/page.js",
   "/health-monitoring/page": "app/health-monitoring/page.js",
   "/care-services/page": "app/care-services/page.js",
-  "/medication-management/page": "app/medication-management/page.js",
-  "/activity-management/page": "app/activity-management/page.js",
   "/alerts/page": "app/alerts/page.js",
   "/staff/page": "app/staff/page.js",
   "/visitor-management/page": "app/visitor-management/page.js",
+  "/medication-management/page": "app/medication-management/page.js",
+  "/nutrition-management/page": "app/nutrition-management/page.js",
   "/inventory-management/page": "app/inventory-management/page.js",
-  "/maintenance/page": "app/maintenance/page.js",
+  "/elderly-profiles/page": "app/elderly-profiles/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
   "/document-management/page": "app/document-management/page.js"
 }

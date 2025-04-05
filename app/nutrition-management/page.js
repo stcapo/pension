@@ -24,6 +24,7 @@ import FormField from '../../components/ui/FormField';
 import Tabs from '../../components/ui/Tabs';
 import Alert from '../../components/ui/Alert';
 import { getNutritionPlans, getElderlyProfiles, getElderlyById, formatDate } from '../../utils/data-utils';
+import { useSaveAnimation, renderSaveButton, renderSuccessOverlay } from '../../utils/save-animation';
 
 // 食物项组件 - 用于复用
 const FoodItem = ({ category, name, portion }) => {
@@ -106,6 +107,8 @@ export default function NutritionManagement() {
   const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
   const [isEditMealModalOpen, setIsEditMealModalOpen] = useState(false);
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveSuccess, setSaveSuccess] = useState(false);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('all');
   const [filterParams, setFilterParams] = useState({
@@ -185,8 +188,19 @@ export default function NutritionManagement() {
 
   const handleEditMeal = (meal) => {
     setSelectedMeal(meal);
+    setIsSaving(false);
+    setSaveSuccess(false);
     setIsEditMealModalOpen(true);
   };
+
+  const closeEditMealModal = () => {
+    setIsEditMealModalOpen(false);
+    setIsSaving(false);
+    setSaveSuccess(false);
+  };
+  
+  // 使用工具函数处理保存动画
+  const handleSaveMeal = useSaveAnimation(setIsSaving, setSaveSuccess, closeEditMealModal);
 
   const handleFilterButtonClick = () => {
     setIsFilterModalOpen(true);
@@ -366,6 +380,7 @@ export default function NutritionManagement() {
           </div>
         }
       >
+        {renderSuccessOverlay(saveSuccess)}
         <div className="mb-4">
           <div className="flex items-center mb-4">
             <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white mr-3">
@@ -443,22 +458,23 @@ export default function NutritionManagement() {
     return (
       <Modal
         isOpen={isEditMealModalOpen}
-        onClose={() => setIsEditMealModalOpen(false)}
+        onClose={closeEditMealModal}
         title={`编辑${selectedMeal.type}菜单`}
         size="lg"
         footer={
           <div className="flex space-x-2">
             <Button
               variant="outline"
-              onClick={() => setIsEditMealModalOpen(false)}
+              onClick={closeEditMealModal}
             >
               取消
             </Button>
             <Button
               variant="primary"
-              icon={<AiOutlineCheck size={16} />}
+              onClick={handleSaveMeal}
+              disabled={isSaving || saveSuccess}
             >
-              保存
+              {renderSaveButton(isSaving, saveSuccess)}
             </Button>
           </div>
         }

@@ -24,6 +24,7 @@ import FormField from '../../components/ui/FormField';
 import Tabs from '../../components/ui/Tabs';
 import Alert from '../../components/ui/Alert';
 import { getActivities, getElderlyProfiles, formatDate } from '../../utils/data-utils';
+import { useSaveAnimation, renderSaveButton, renderSuccessOverlay } from '../../utils/save-animation';
 
 export default function ActivityManagement() {
   const [activities, setActivities] = useState([]);
@@ -33,6 +34,8 @@ export default function ActivityManagement() {
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
   const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveSuccess, setSaveSuccess] = useState(false);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('all');
   const [filterParams, setFilterParams] = useState({
@@ -108,8 +111,19 @@ export default function ActivityManagement() {
   };
 
   const handleAddActivity = () => {
+    setIsSaving(false);
+    setSaveSuccess(false);
     setIsAddModalOpen(true);
   };
+
+  const closeAddModal = () => {
+    setIsAddModalOpen(false);
+    setIsSaving(false);
+    setSaveSuccess(false);
+  };
+  
+  // 使用工具函数处理保存动画
+  const handleSaveActivity = useSaveAnimation(setIsSaving, setSaveSuccess, closeAddModal);
 
   const handleViewActivity = (activity) => {
     setSelectedActivity(activity);
@@ -241,25 +255,28 @@ export default function ActivityManagement() {
     return (
       <Modal
         isOpen={isAddModalOpen}
-        onClose={() => setIsAddModalOpen(false)}
+        onClose={closeAddModal}
         title="添加活动"
         size="lg"
         footer={
           <div className="flex space-x-2">
             <Button
               variant="outline"
-              onClick={() => setIsAddModalOpen(false)}
+              onClick={closeAddModal}
             >
               取消
             </Button>
             <Button
               variant="primary"
+              onClick={handleSaveActivity}
+              disabled={isSaving || saveSuccess}
             >
-              保存
+              {renderSaveButton(isSaving, saveSuccess)}
             </Button>
           </div>
         }
       >
+        {renderSuccessOverlay(saveSuccess)}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <FormField
             label="活动名称"

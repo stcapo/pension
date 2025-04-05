@@ -1,35 +1,15 @@
 {
   "pages": {
-    "/page": [
+    "/health-monitoring/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/health-monitoring/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/login/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/login/page.js"
-    ],
-    "/dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/page.js"
-    ],
-    "/elderly-profiles/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/elderly-profiles/page.js"
-    ],
-    "/health-monitoring/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/health-monitoring/page.js"
     ],
     "/care-services/page": [
       "static/chunks/webpack.js",
@@ -40,11 +20,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/medication-management/page.js"
-    ],
-    "/activity-management/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/activity-management/page.js"
     ],
     "/alerts/page": [
       "static/chunks/webpack.js",
@@ -61,15 +36,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/visitor-management/page.js"
     ],
+    "/nutrition-management/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nutrition-management/page.js"
+    ],
     "/inventory-management/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/inventory-management/page.js"
     ],
-    "/maintenance/page": [
+    "/elderly-profiles/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/maintenance/page.js"
+      "static/chunks/app/elderly-profiles/page.js"
+    ],
+    "/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/page.js"
     ],
     "/document-management/page": [
       "static/chunks/webpack.js",

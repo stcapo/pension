@@ -20,6 +20,13 @@ export default function ElderlyProfiles() {
   const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
   const [filterStatus, setFilterStatus] = useState('全部');
+  const [formData, setFormData] = useState({
+    chronicDiseases: [],
+    dietaryRestrictions: []
+  });
+  const [formErrors, setFormErrors] = useState({});
+  const [showValidationResult, setShowValidationResult] = useState(false);
+  const [validationPassed, setValidationPassed] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -87,9 +94,145 @@ export default function ElderlyProfiles() {
 
   const closeAddModal = () => {
     setIsAddModalOpen(false);
+    // 重置表单数据和错误
+    setFormData({
+      chronicDiseases: [],
+      dietaryRestrictions: []
+    });
+    setFormErrors({});
+    setShowValidationResult(false);
+    setValidationPassed(false);
   };
 
-  // 表格列定义
+  const handleFormChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    
+    if (type === 'checkbox') {
+      // 处理复选框
+      if (name === 'chronicDiseases' || name === 'dietaryRestrictions') {
+        const currentValues = [...(formData[name] || [])];
+        
+        if (checked) {
+          // 如果选中，添加到数组
+          if (!currentValues.includes(value)) {
+            currentValues.push(value);
+          }
+        } else {
+          // 如果取消选中，从数组中移除
+          const index = currentValues.indexOf(value);
+          if (index !== -1) {
+            currentValues.splice(index, 1);
+          }
+        }
+        
+        setFormData({
+          ...formData,
+          [name]: currentValues
+        });
+      } else {
+        // 处理单个复选框
+        setFormData({
+          ...formData,
+          [name]: checked
+        });
+      }
+    } else {
+      // 处理其他输入类型
+      setFormData({
+        ...formData,
+        [name]: value
+      });
+    }
+  };
+
+  // 表单验证函数
+  const validateForm = () => {
+    const errors = {};
+    
+    // 身份证号（18位数字或17位数字+X）
+    if (!formData.idCard || !/^\d{17}(\d|X)$/i.test(formData.idCard)) {
+      errors.idCard = '请输入有效的18位身份证号';
+    }
+    
+    // 电话号码（11位数字）
+    if (formData.phone && !/^1\d{10}$/.test(formData.phone)) {
+      errors.phone = '请输入有效的11位手机号码';
+    }
+    
+    // 地址（省+市+街道）逗号隔开
+    if (formData.address && !formData.address.includes(',') && !formData.address.includes('，')) {
+      errors.address = '请输入正确格式的地址，如：省,市,街道';
+    }
+    
+    // 房间号（英文字母+数字）
+    if (!formData.roomNumber || !/^[A-Za-z]\d+$/.test(formData.roomNumber)) {
+      errors.roomNumber = '请输入正确格式的房间号，如：A101';
+    }
+    
+    // 紧急联系人电话（11位数字）
+    if (!formData.emergencyContactPhone || !/^1\d{10}$/.test(formData.emergencyContactPhone)) {
+      errors.emergencyContactPhone = '请输入有效的11位手机号码';
+    }
+    
+    // 备注（非空）
+    if (!formData.notes || formData.notes.trim() === '') {
+      errors.notes = '备注不能为空';
+    }
+    
+    // 其他必填项验证
+    if (!formData.name || formData.name.trim() === '') {
+      errors.name = '姓名不能为空';
+    }
+    
+    if (!formData.gender) {
+      errors.gender = '请选择性别';
+    }
+    
+    if (!formData.birthDate) {
+      errors.birthDate = '请选择出生日期';
+    }
+    
+    if (!formData.careLevel) {
+      errors.careLevel = '请选择护理级别';
+    }
+    
+    if (!formData.healthStatus) {
+      errors.healthStatus = '请选择健康状态';
+    }
+    
+    if (!formData.entryDate) {
+      errors.entryDate = '请选择入住日期';
+    }
+    
+    if (!formData.emergencyContactName || formData.emergencyContactName.trim() === '') {
+      errors.emergencyContactName = '紧急联系人姓名不能为空';
+    }
+    
+    if (!formData.emergencyContactRelationship) {
+      errors.emergencyContactRelationship = '请选择紧急联系人关系';
+    }
+    
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+  
+  // 处理表单提交
+  const handleSaveProfile = () => {
+    const isValid = validateForm();
+    setValidationPassed(isValid);
+    setShowValidationResult(true);
+    
+    // 如果验证通过，可以在此添加保存逻辑
+    if (isValid) {
+      // TODO: 调用API保存数据
+      // 事件处理完后3秒关闭提示
+      setTimeout(() => {
+        setShowValidationResult(false);
+        // 如果保存成功可以关闭模态框
+        // closeAddModal();
+      }, 3000);
+    }
+  };
   const columns = [
     { title: 'ID', dataIndex: 'id', width: '60px' },
     { title: '姓名', dataIndex: 'name', width: '100px' },
@@ -337,23 +480,48 @@ export default function ElderlyProfiles() {
             </Button>
             <Button
               variant="primary"
+              onClick={handleSaveProfile}
             >
               保存
             </Button>
           </div>
         }
       >
+        {showValidationResult && (
+          <div className={`mb-4 p-3 rounded-md ${validationPassed ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+            <div className="flex items-center">
+              <span className="font-medium">
+                {validationPassed 
+                  ? '验证通过，表单数据有效！' 
+                  : '表单验证失败，请检查以下错误：'}
+              </span>
+            </div>
+            {!validationPassed && Object.keys(formErrors).length > 0 && (
+              <ul className="list-disc ml-5 mt-2">
+                {Object.values(formErrors).map((error, index) => (
+                  <li key={index}>{error}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <FormField
             label="姓名"
             name="name"
             placeholder="请输入姓名"
+            value={formData.name || ''}
+            onChange={handleFormChange}
+            error={formErrors.name}
             required
           />
           <FormField
             label="性别"
             name="gender"
             type="select"
+            value={formData.gender || ''}
+            onChange={handleFormChange}
+            error={formErrors.gender}
             options={[
               { value: '男', label: '男' },
               { value: '女', label: '女' }
@@ -364,23 +532,34 @@ export default function ElderlyProfiles() {
             label="出生日期"
             name="birthDate"
             type="date"
+            value={formData.birthDate || ''}
+            onChange={handleFormChange}
+            error={formErrors.birthDate}
             required
           />
           <FormField
             label="身份证号"
             name="idCard"
             placeholder="请输入身份证号"
+            value={formData.idCard || ''}
+            onChange={handleFormChange}
+            error={formErrors.idCard}
             required
           />
           <FormField
             label="联系电话"
             name="phone"
             placeholder="请输入联系电话"
+            value={formData.phone || ''}
+            onChange={handleFormChange}
+            error={formErrors.phone}
           />
           <FormField
             label="血型"
             name="bloodType"
             type="select"
+            value={formData.bloodType || ''}
+            onChange={handleFormChange}
             options={[
               { value: 'A型', label: 'A型' },
               { value: 'B型', label: 'B型' },
@@ -393,18 +572,27 @@ export default function ElderlyProfiles() {
               label="地址"
               name="address"
               placeholder="请输入地址"
+              value={formData.address || ''}
+              onChange={handleFormChange}
+              error={formErrors.address}
             />
           </div>
           <FormField
             label="房间号"
             name="roomNumber"
             placeholder="请输入房间号"
+            value={formData.roomNumber || ''}
+            onChange={handleFormChange}
+            error={formErrors.roomNumber}
             required
           />
           <FormField
             label="护理级别"
             name="careLevel"
             type="select"
+            value={formData.careLevel || ''}
+            onChange={handleFormChange}
+            error={formErrors.careLevel}
             options={[
               { value: '1', label: '1级 (基础照护)' },
               { value: '2', label: '2级 (轻度照护)' },
@@ -418,6 +606,9 @@ export default function ElderlyProfiles() {
             label="健康状态"
             name="healthStatus"
             type="select"
+            value={formData.healthStatus || ''}
+            onChange={handleFormChange}
+            error={formErrors.healthStatus}
             options={[
               { value: '良好', label: '良好' },
               { value: '稳定', label: '稳定' },
@@ -431,6 +622,9 @@ export default function ElderlyProfiles() {
             label="入住日期"
             name="entryDate"
             type="date"
+            value={formData.entryDate || ''}
+            onChange={handleFormChange}
+            error={formErrors.entryDate}
             required
           />
           <div className="col-span-2">
@@ -438,6 +632,9 @@ export default function ElderlyProfiles() {
               label="慢性病"
               name="chronicDiseases"
               type="checkbox"
+              value={formData.chronicDiseases}
+              onChange={handleFormChange}
+              error={formErrors.chronicDiseases}
               options={[
                 { value: '高血压', label: '高血压' },
                 { value: '糖尿病', label: '糖尿病' },
@@ -455,6 +652,9 @@ export default function ElderlyProfiles() {
               label="饮食限制"
               name="dietaryRestrictions"
               type="checkbox"
+              value={formData.dietaryRestrictions}
+              onChange={handleFormChange}
+              error={formErrors.dietaryRestrictions}
               options={[
                 { value: '低盐饮食', label: '低盐饮食' },
                 { value: '糖尿病饮食', label: '糖尿病饮食' },
@@ -469,12 +669,18 @@ export default function ElderlyProfiles() {
             label="紧急联系人姓名"
             name="emergencyContactName"
             placeholder="请输入紧急联系人姓名"
+            value={formData.emergencyContactName || ''}
+            onChange={handleFormChange}
+            error={formErrors.emergencyContactName}
             required
           />
           <FormField
             label="紧急联系人关系"
             name="emergencyContactRelationship"
             type="select"
+            value={formData.emergencyContactRelationship || ''}
+            onChange={handleFormChange}
+            error={formErrors.emergencyContactRelationship}
             options={[
               { value: '子女', label: '子女' },
               { value: '配偶', label: '配偶' },
@@ -487,6 +693,9 @@ export default function ElderlyProfiles() {
             label="紧急联系人电话"
             name="emergencyContactPhone"
             placeholder="请输入紧急联系人电话"
+            value={formData.emergencyContactPhone || ''}
+            onChange={handleFormChange}
+            error={formErrors.emergencyContactPhone}
             required
           />
           <div className="col-span-2">
@@ -495,6 +704,9 @@ export default function ElderlyProfiles() {
               name="notes"
               type="textarea"
               placeholder="请输入备注信息"
+              value={formData.notes || ''}
+              onChange={handleFormChange}
+              error={formErrors.notes}
             />
           </div>
         </div>
