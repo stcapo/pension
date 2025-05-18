@@ -3,11 +3,10 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { loginUser } from '../../utils/auth-utils';
 import { AiOutlineUser, AiOutlineLock, AiOutlineHome } from 'react-icons/ai';
-import Alert from '../../components/ui/Alert';
+import { loginUser } from '../../utils/auth-utils';
 
-export default function LoginPage() {
+export default function UserLoginPage() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -33,7 +32,7 @@ export default function LoginPage() {
         if (result.user.role === 'admin') {
           router.push('/dashboard');
         } else {
-          setError('您不是管理员，无法登录管理端');
+          router.push('/user');
         }
       } else {
         setError(result.message || '登录失败，请检查用户名和密码');
@@ -52,11 +51,11 @@ export default function LoginPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
-              <span className="text-2xl font-bold text-primary">智慧养老系统</span>
+              <span className="text-2xl font-bold text-primary">智慧养老</span>
             </div>
-            <Link href="/user-login" className="text-gray-500 hover:text-gray-700 flex items-center">
+            <Link href="/login" className="text-gray-500 hover:text-gray-700 flex items-center">
               <AiOutlineHome className="mr-1" />
-              用户入口
+              管理员入口
             </Link>
           </div>
         </div>
@@ -65,21 +64,17 @@ export default function LoginPage() {
       <div className="flex-grow flex items-center justify-center px-4">
         <div className="max-w-md w-full bg-white rounded-lg shadow-xl overflow-hidden">
           <div className="bg-primary py-6 px-6">
-            <h2 className="text-2xl font-bold text-white text-center">智慧养老系统</h2>
-            <p className="text-blue-100 text-center mt-1">综合管理平台</p>
+            <h2 className="text-2xl font-bold text-white text-center">智慧养老服务平台</h2>
+            <p className="text-blue-100 text-center mt-1">用户登录</p>
           </div>
 
           <div className="p-6">
-            <h3 className="text-xl font-medium text-gray-800 mb-6 text-center">管理员登录</h3>
+            <h3 className="text-xl font-medium text-gray-800 mb-6 text-center">欢迎回来</h3>
 
             {error && (
-              <Alert
-                type="error"
-                message={error}
-                className="mb-4"
-                closable
-                onClose={() => setError('')}
-              />
+              <div className="mb-4 bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded relative" role="alert">
+                <span className="block sm:inline">{error}</span>
+              </div>
             )}
 
             <form onSubmit={handleLogin}>
@@ -140,37 +135,24 @@ export default function LoginPage() {
 
               <button
                 type="submit"
-                disabled={loading}
-                className={`w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors ${
+                className={`w-full bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 ${
                   loading ? 'opacity-70 cursor-not-allowed' : ''
                 }`}
+                disabled={loading}
               >
-                {loading ? (
-                  <>
-                    <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                    </svg>
-                    登录中...
-                  </>
-                ) : (
-                  '登录'
-                )}
+                {loading ? '登录中...' : '登录'}
               </button>
             </form>
 
-            <div className="mt-6 text-center text-sm text-gray-500">
-              <p>本系统仅限授权人员使用</p>
-              <p className="mt-2">测试账号: admin / admin123</p>
-              <p className="mt-2">
-                <Link href="/user-login" className="text-primary hover:underline">
-                  前往用户登录
-                </Link>
+            <div className="mt-6 text-center">
+              <p className="text-sm text-gray-600">
+                测试账号: zhanglaoyou / 123456
               </p>
             </div>
           </div>
         </div>
       </div>
+      {/* Footer removed */}
     </div>
   );
 }

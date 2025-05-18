@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "username": "zhanglaoyou",
+    "password": "123456",
+    "name": "张爷爷",
+    "role": "user",
+    "gender": "男",
+    "age": 78,
+    "phone": "13812345678"
+  },
+  {
+    "id": 2,
+    "username": "liwaipu",
+    "password": "123456",
+    "name": "李外婆",
+    "role": "user",
+    "gender": "女",
+    "age": 75,
+    "phone": "13987654321"
+  },
+  {
+    "id": 3,
+    "username": "wangyeye",
+    "password": "123456",
+    "name": "王爷爷",
+    "role": "user",
+    "gender": "男",
+    "age": 80,
+    "phone": "13765432198"
+  },
+  {
+    "id": 4,
+    "username": "admin",
+    "password": "admin123",
+    "name": "管理员",
+    "role": "admin",
+    "gender": "男",
+    "age": 35,
+    "phone": "13500000000"
+  }
+]
